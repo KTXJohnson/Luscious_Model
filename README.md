@@ -22,6 +22,36 @@ The optimized implementation includes the following improvements:
 8. **External Data Loading**: Support for loading data from external files (JSON, text) for training on custom datasets.
 9. **Improved Documentation**: Comprehensive docstrings and type hints for better code understanding.
 
+## Repository Structure
+
+The project is organized into the following directory structure:
+
+```
+Luscious_Model/
+├── models/             # Model definitions
+├── training/           # Training code
+├── inference/          # Inference code
+├── utils/              # Utility functions
+└── tests/              # Test code
+```
+
+## GitHub Repository Setup
+
+To create and push to a new GitHub repository:
+
+1. Go to [GitHub](https://github.com/) and sign in to your account
+2. Click the "+" icon in the top right corner and select "New repository"
+3. Enter "Luscious_Model" as the repository name
+4. Add a description (optional)
+5. Choose whether the repository should be public or private
+6. Do NOT initialize the repository with a README, .gitignore, or license
+7. Click "Create repository"
+8. After creating the repository, run the following command to push your local repository:
+
+```
+git push -u origin master
+```
+
 ## Usage
 
 ### Basic Usage
@@ -123,5 +153,5 @@ These mathematical concepts are combined to create a unique approach to text pro
     |  O  |   *4D Heart*
     |  O  |   *Nanobot Zeros*
     ~~~~~~~~~~~~~
-Controlled Chaos by You & Grok
+
 ```
