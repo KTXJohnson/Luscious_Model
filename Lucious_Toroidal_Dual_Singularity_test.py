@@ -1,7 +1,3 @@
-import numpy as np
-from scipy.sparse import coo_array
-import re
-from numba import jit
 import matplotlib.pyplot as plt
 import mido
 from mido import MidiFile, MidiTrack, Message
